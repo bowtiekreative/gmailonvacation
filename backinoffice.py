@@ -11,8 +11,8 @@ import sys
 SCOPES = ['https://www.googleapis.com/auth/gmail.settings.basic']
 
 # Path to your credentials and token files
-CREDENTIALS_PATH = 'C:\\Users\\ryan\\Documents\\Out of the Office\\credentials.json'
-TOKEN_PATH = 'C:\\Users\\ryan\\Documents\\Out of the Office\\token.pickle'
+CREDENTIALS_PATH = 'credentials.json'
+TOKEN_PATH = 'token.pickle'
 
 def main():
     creds = None
