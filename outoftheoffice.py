@@ -11,8 +11,8 @@ import sys
 SCOPES = ['https://www.googleapis.com/auth/gmail.settings.basic']
 
 # Path to your credentials and token files
-CREDENTIALS_PATH = 'C:\\Users\\ryan\\Documents\\Out of the Office\\credentials.json'
-TOKEN_PATH = 'C:\\Users\\ryan\\Documents\\Out of the Office\\token.pickle'
+CREDENTIALS_PATH = 'credentials.json'
+TOKEN_PATH = 'token.pickle'
 
 def get_custom_message():
     """Prompt the user for a custom out-of-office message using Tkinter."""
@@ -22,7 +22,7 @@ def get_custom_message():
     # Default message crafted in a direct yet polite manner
     default_message = ("I understand you're reaching out and I appreciate your patience. "
                        "I'm currently unavailable but will address your message as soon as I return. "
-                       "For immediate concerns, please call or text 587-888-5088. Thank you for understanding.")
+                       "For immediate concerns, please call or text ###########. Thank you for understanding.")
 
     # Prompt the user for a custom message
     custom_message = simpledialog.askstring("Out-of-Office Message",
